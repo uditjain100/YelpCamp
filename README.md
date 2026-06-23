@@ -1,6 +1,6 @@
-# 🏕️ YelpCamp2021
+# 🏕️ YelpCamp
 
-**YelpCamp2021** is a full-stack, dynamic web application that allows users to discover and interact with campgrounds across various locations. Built with **Node.js**, **Express.js**, **MongoDB**, and **EJS** templating, the project implements secure user authentication, interactive mapping, image upload, and complete **CRUD (Create, Read, Update, Delete)** functionalities. It is inspired by platforms like Yelp, tailored specifically for campground enthusiasts who want to share their experiences and explore new sites.
+**YelpCamp** is a full-stack, dynamic web application that allows users to discover and interact with campgrounds across various locations. Built with **Node.js**, **Express.js**, **MongoDB**, and **EJS** templating, the project implements secure user authentication, interactive mapping, image upload, and complete **CRUD (Create, Read, Update, Delete)** functionalities. It is inspired by platforms like Yelp, tailored specifically for campground enthusiasts who want to share their experiences and explore new sites.
 
 This project offers an end-to-end experience—from user registration to posting, viewing, reviewing, and deleting campgrounds—all in a user-friendly and responsive interface. Integrated with **Cloudinary** for image storage and **Mapbox** for geographical visualization, it provides both functionality and aesthetics. It's a solid foundation for learning backend development with Express, RESTful routing, and third-party API integration.
 
@@ -58,13 +58,13 @@ Before you begin, ensure you have the following installed:
 
 ## 🚀 Installation & Setup
 
-Follow the steps below to set up the YelpCamp2021 project on your local system:
+Follow the steps below to set up the YelpCamp project on your local system:
 
 ```bash
 # 1. Clone the Repository
 # This will download the project files from GitHub.
-git clone https://github.com/uditjain100/YelpCamp2021.git
-cd YelpCamp2021
+git clone https://github.com/uditjain100/YelpCamp.git
+cd YelpCamp
 
 # 2. Install Project Dependencies
 # Use npm to install all required Node.js packages defined in package.json.
@@ -191,7 +191,7 @@ MongoDB_URL=your_mongodb_connection_string
 ## 📁 Project Structure
 
 ```
-YelpCamp2021/
+YelpCamp/
 ├── app.js                        # Main Express app entry point
 ├── index.js                     # Optional alternate entry or mapbox setup
 ├── RandomImage.js               # Logic for rotating homepage image (if used)
